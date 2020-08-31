@@ -18,7 +18,7 @@ import java.util.Stack;
  * @author yijinjin
  * @date 2020/8/24 -14:31
  */
-public class MinStack {
+public class Solution155MinStack {
     // 数据栈
     private Stack<Integer> data;
 
@@ -28,7 +28,7 @@ public class MinStack {
     /**
      * initialize your data structure here.
      */
-    public MinStack() {
+    public Solution155MinStack() {
         data = new Stack<Integer>();
         helper = new Stack<Integer>();
     }
