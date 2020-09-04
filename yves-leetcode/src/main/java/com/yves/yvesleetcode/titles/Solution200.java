@@ -20,11 +20,19 @@ import java.util.Queue;
  */
 public class Solution200 {
     public static void main(String[] args) {
-        char[][] grid = new char[][]{
+        /*char[][] grid = new char[][]{
                 {'1', '1', '1', '1', '0'},
                 {'1', '1', '0', '1', '0'},
                 {'1', '1', '0', '0', '0'},
-                {'0', '0', '0', '0', '0'}};
+                {'0', '0', '0', '0', '0'}};*/
+        char[][] grid = new char[][]{
+                {'1', '1', '1', '1', '1', '1', '1'},
+                {'0', '0', '0', '0', '0', '0', '1'},
+                {'1', '1', '1', '1', '1', '0', '1'},
+                {'1', '0', '0', '0', '1', '0', '1'},
+                {'1', '0', '1', '0', '1', '0', '1'},
+                {'1', '0', '1', '1', '1', '0', '1'},
+                {'1', '1', '1', '1', '1', '1', '1'}};
 
         int result = numIslands(grid);
         System.err.println("result : " + result);
@@ -105,7 +113,7 @@ public class Solution200 {
         dfs(grid, i, j - 1);
         dfs(grid, i, j + 1);
         dfs(grid, i + 1, j);
-        dfs(grid, i - 1, j + 1);
+        dfs(grid, i - 1, j);
     }
 
 
@@ -130,21 +138,21 @@ public class Solution200 {
                         int id = neighbors.remove();
                         int row = id / nc;
                         int col = id % nc;
-                        if (row - 1 >= 0 && grid[row-1][col] == '1') {
-                            neighbors.add((row-1) * nc + col);
-                            grid[row-1][col] = '0';
+                        if (row - 1 >= 0 && grid[row - 1][col] == '1') {
+                            neighbors.add((row - 1) * nc + col);
+                            grid[row - 1][col] = '0';
                         }
-                        if (row + 1 < nr && grid[row+1][col] == '1') {
-                            neighbors.add((row+1) * nc + col);
-                            grid[row+1][col] = '0';
+                        if (row + 1 < nr && grid[row + 1][col] == '1') {
+                            neighbors.add((row + 1) * nc + col);
+                            grid[row + 1][col] = '0';
                         }
-                        if (col - 1 >= 0 && grid[row][col-1] == '1') {
-                            neighbors.add(row * nc + col-1);
-                            grid[row][col-1] = '0';
+                        if (col - 1 >= 0 && grid[row][col - 1] == '1') {
+                            neighbors.add(row * nc + col - 1);
+                            grid[row][col - 1] = '0';
                         }
-                        if (col + 1 < nc && grid[row][col+1] == '1') {
-                            neighbors.add(row * nc + col+1);
-                            grid[row][col+1] = '0';
+                        if (col + 1 < nc && grid[row][col + 1] == '1') {
+                            neighbors.add(row * nc + col + 1);
+                            grid[row][col + 1] = '0';
                         }
                     }
                 }
