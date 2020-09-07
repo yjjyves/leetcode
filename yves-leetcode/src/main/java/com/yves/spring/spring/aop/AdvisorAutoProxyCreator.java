@@ -1,13 +1,13 @@
 package com.yves.spring.spring.aop;
 
-import com.yves.spring.aop.advisor.PointcutAdvisor;
-import com.yves.spring.aop.pointcut.Pointcut;
-import com.yves.spring.beans.BeanFactory;
-import com.yves.spring.beans.BeanFactoryAware;
-import com.yves.spring.beans.BeanPostProcessor;
-import com.yves.spring.aop.advisor.Advisor;
-import com.yves.spring.aop.advisor.AdvisorRegistry;
-import org.apache.commons.collections4.CollectionUtils;
+import com.alibaba.dubbo.common.utils.CollectionUtils;
+import com.yves.spring.spring.aop.advisor.PointcutAdvisor;
+import com.yves.spring.spring.aop.pointcut.Pointcut;
+import com.yves.spring.spring.beans.BeanFactory;
+import com.yves.spring.spring.beans.BeanFactoryAware;
+import com.yves.spring.spring.beans.BeanPostProcessor;
+import com.yves.spring.spring.aop.advisor.Advisor;
+import com.yves.spring.spring.aop.advisor.AdvisorRegistry;
 import org.springframework.util.ClassUtils;
 import org.springframework.util.ReflectionUtils;
 

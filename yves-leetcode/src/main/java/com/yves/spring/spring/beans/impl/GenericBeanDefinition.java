@@ -1,7 +1,7 @@
 package com.yves.spring.spring.beans.impl;
 
-import com.yves.spring.beans.BeanDefinition;
-import com.yves.spring.beans.PropertyValue;
+import com.yves.spring.spring.beans.BeanDefinition;
+import com.yves.spring.spring.beans.PropertyValue;
 import lombok.Data;
 
 import java.lang.reflect.Constructor;

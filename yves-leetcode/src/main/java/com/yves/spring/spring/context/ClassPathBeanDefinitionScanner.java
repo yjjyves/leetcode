@@ -1,6 +1,6 @@
 package com.yves.spring.spring.context;
 
-import com.yves.spring.beans.BeanDefinitionRegistry;
+import com.yves.spring.spring.beans.BeanDefinitionRegistry;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;

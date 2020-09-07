@@ -1,7 +1,7 @@
 package com.yves.spring.example.aop;
 
 
-import com.yves.spring.aop.advice.MethodInterceptor;
+import com.yves.spring.spring.aop.advice.MethodInterceptor;
 
 import java.lang.reflect.Method;
 

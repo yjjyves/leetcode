@@ -1,13 +1,13 @@
 package com.yves.spring.spring.context;
 
-import com.yves.spring.beans.BeanDefinition;
-import com.yves.spring.beans.BeanDefinitionRegistry;
-import com.yves.spring.beans.BeanReference;
-import com.yves.spring.beans.impl.GenericBeanDefinition;
-import com.yves.spring.context.annotation.Autowired;
-import com.yves.spring.context.annotation.Component;
-import com.yves.spring.context.annotation.Qualifier;
-import com.yves.spring.context.annotation.Value;
+import com.yves.spring.spring.beans.BeanDefinition;
+import com.yves.spring.spring.beans.BeanDefinitionRegistry;
+import com.yves.spring.spring.beans.BeanReference;
+import com.yves.spring.spring.beans.impl.GenericBeanDefinition;
+import com.yves.spring.spring.context.annotation.Autowired;
+import com.yves.spring.spring.context.annotation.Component;
+import com.yves.spring.spring.context.annotation.Qualifier;
+import com.yves.spring.spring.context.annotation.Value;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.ClassUtils;
 

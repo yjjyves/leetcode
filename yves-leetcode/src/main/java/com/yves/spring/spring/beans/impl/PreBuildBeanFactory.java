@@ -1,6 +1,6 @@
 package com.yves.spring.spring.beans.impl;
 
-import com.yves.spring.beans.BeanDefinition;
+import com.yves.spring.spring.beans.BeanDefinition;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

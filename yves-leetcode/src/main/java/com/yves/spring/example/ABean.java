@@ -1,9 +1,9 @@
 package com.yves.spring.example;
 
-import com.yves.spring.context.annotation.Autowired;
-import com.yves.spring.context.annotation.Component;
-import com.yves.spring.context.annotation.Qualifier;
-import com.yves.spring.context.annotation.Value;
+import com.yves.spring.spring.context.annotation.Autowired;
+import com.yves.spring.spring.context.annotation.Component;
+import com.yves.spring.spring.context.annotation.Qualifier;
+import com.yves.spring.spring.context.annotation.Value;
 
 @Component(initMethodName = "init", destroyMethodName = "destroy")
 public class ABean {

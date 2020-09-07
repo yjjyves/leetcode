@@ -1,8 +1,8 @@
 package com.yves.spring.spring.context;
 
-import com.yves.spring.beans.BeanFactory;
-import com.yves.spring.beans.BeanPostProcessor;
-import com.yves.spring.beans.impl.PreBuildBeanFactory;
+import com.yves.spring.spring.beans.BeanFactory;
+import com.yves.spring.spring.beans.BeanPostProcessor;
+import com.yves.spring.spring.beans.impl.PreBuildBeanFactory;
 
 /**
  * 功能描述

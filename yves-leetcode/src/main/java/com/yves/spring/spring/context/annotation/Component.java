@@ -1,7 +1,7 @@
 package com.yves.spring.spring.context.annotation;
 
 
-import com.yves.spring.beans.BeanDefinition;
+import com.yves.spring.spring.beans.BeanDefinition;
 
 import java.lang.annotation.*;
 

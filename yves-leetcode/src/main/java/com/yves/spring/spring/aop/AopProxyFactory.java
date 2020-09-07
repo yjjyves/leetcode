@@ -1,7 +1,7 @@
 package com.yves.spring.spring.aop;
 
-import com.yves.spring.aop.advisor.Advisor;
-import com.yves.spring.beans.BeanFactory;
+import com.yves.spring.spring.aop.advisor.Advisor;
+import com.yves.spring.spring.beans.BeanFactory;
 
 import java.util.List;
 

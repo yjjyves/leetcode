@@ -1,9 +1,9 @@
 package com.yves.spring.spring.aop;
 
-import com.yves.spring.aop.advisor.Advisor;
-import com.yves.spring.beans.BeanDefinition;
-import com.yves.spring.beans.BeanFactory;
-import com.yves.spring.beans.impl.DefaultBeanFactory;
+import com.yves.spring.spring.aop.advisor.Advisor;
+import com.yves.spring.spring.beans.BeanDefinition;
+import com.yves.spring.spring.beans.BeanFactory;
+import com.yves.spring.spring.beans.impl.DefaultBeanFactory;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;

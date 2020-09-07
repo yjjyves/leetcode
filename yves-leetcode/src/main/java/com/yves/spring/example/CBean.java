@@ -1,6 +1,6 @@
 package com.yves.spring.example;
 
-import com.yves.spring.context.annotation.Component;
+import com.yves.spring.spring.context.annotation.Component;
 
 @Component(name = "cbean01")
 public class CBean {

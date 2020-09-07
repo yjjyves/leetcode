@@ -1,7 +1,7 @@
 package com.yves.spring.spring.aop.advisor;
 
-import com.yves.spring.aop.pointcut.AspectJExpressionPointcut;
-import com.yves.spring.aop.pointcut.Pointcut;
+import com.yves.spring.spring.aop.pointcut.AspectJExpressionPointcut;
+import com.yves.spring.spring.aop.pointcut.Pointcut;
 
 /**
  * 功能描述

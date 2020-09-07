@@ -1,8 +1,7 @@
 package com.yves.spring.example.config;
 
-import com.yves.example.ABean;
-import com.yves.spring.context.AnnotationApplicationContext;
-import org.junit.Test;
+import com.yves.spring.example.ABean;
+import com.yves.spring.spring.context.AnnotationApplicationContext;
 
 /**
  * 功能描述

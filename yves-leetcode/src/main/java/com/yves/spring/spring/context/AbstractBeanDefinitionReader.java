@@ -1,6 +1,6 @@
 package com.yves.spring.spring.context;
 
-import com.yves.spring.beans.BeanDefinitionRegistry;
+import com.yves.spring.spring.beans.BeanDefinitionRegistry;
 
 /**
  * 功能描述
